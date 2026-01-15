@@ -101,7 +101,7 @@ Sécurisation des communications internes du cluster par la mise en place d’un
 
 ## Étape 14 : Vérifications finales
 
-Validation complète du déploiement via le contrôle de l’état des Pods et des Services Kubernetes, suivie de l’exposition locale de l’API par port-forwarding. Les endpoints `/health`, `/startup` et `/ready` sont testés avec succès depuis l’interface Swagger, confirmant la disponibilité, la préparation et la stabilité de l’application. Des requêtes `/predict` sont ensuite exécutées afin de vérifier le bon fonctionnement de l’inférence. Enfin, l’exécution du script de détection de dérive depuis un Pod confirme l’absence de drift sur les données récentes, attestant du bon état opérationnel du système MLOps déployé..
+Validation complète du déploiement via le contrôle de l’état des Pods et des Services Kubernetes, suivie de l’exposition locale de l’API par port-forwarding. Les endpoints `/health`, `/startup` et `/ready` sont testés avec succès depuis l’interface Swagger, confirmant la disponibilité, la préparation et la stabilité de l’application. Des requêtes `/predict` sont ensuite exécutées afin de vérifier le bon fonctionnement de l’inférence. Enfin, l’exécution du script de détection de dérive depuis un Pod confirme l’absence de drift sur les données récentes, attestant du bon état opérationnel du système MLOps déployé.
 <img width="1918" height="303" alt="image" src="https://github.com/user-attachments/assets/e9cd6dfc-dd10-4aa0-9196-eaf45a0078a0" />
 <img width="828" height="416" alt="image" src="https://github.com/user-attachments/assets/a658379b-649f-480b-a695-3415a6cf7f2a" />
 <img width="844" height="796" alt="image" src="https://github.com/user-attachments/assets/48bdfbf8-2fbc-4840-bdeb-a1142ce46b8a" />
