@@ -24,7 +24,7 @@ Un dossier dédié nommé **k8s** a été ajouté à la racine du projet afin de
 
 ## Étape 4 : Construire l’image Docker (tag versionné)
 
-Initialisation de la phase de conteneurisation par la construction d’une image Docker de l’API churn à partir du Dockerfile du projet. L’image a été générée avec un **tag versionné (v1)** afin d’assurer une traçabilité claire des versions et d’éviter l’utilisation du tag `latest`. Une fois la construction terminée, la présence de l’image a été vérifiée localement à l’aide de la commande listant les images Docker, confirmant que l’image `churn-api:v1` est bien disponible et prête à être utilisée pour le déploiement Kubernetes.
+Initialisation de la phase de conteneurisation par la construction d’une image Docker de l’API churn à partir du Dockerfile du projet. L’image a été générée avec un **tag versionné (v1)** afin d’assurer une traçabilité claire des versions et d’éviter l’utilisation du tag `latest`. Une fois la construction terminée, la présence de l’image a été vérifiée localement à l’aide de la commande listant les images Docker, confirmant que l’image `churn-api:v1` est bien disponible et prête à être utilisée pour le déploiement Kubernetes..
 <img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/39f39646-0108-4628-ae91-94ae35a2e538" />
 <img width="1918" height="150" alt="image" src="https://github.com/user-attachments/assets/1aaf72c0-8557-4cd2-ac0b-5d56047a7bae" />
 
