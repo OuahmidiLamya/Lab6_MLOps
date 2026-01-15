@@ -7,4 +7,3 @@ models/
 /models
 dvc_storage/
 *.tar
-.github/workflows/
